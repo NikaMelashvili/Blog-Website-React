@@ -1,0 +1,18 @@
+.post-grid {
+  display: grid;
+  position: relative;
+  top: 504px;
+  gap: 32px;
+  width: 89.5vw;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.blog-post {
+  height: 620px;
+}
+.post-image {
+  border-radius: 12px;
+  height: 328px;
+  width: 408px;
+}

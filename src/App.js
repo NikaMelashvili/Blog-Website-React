@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
-import BlogBody from './BlogBody';
-import Filtering from './Filtering';
+import Navbar from '../src/components/navbar/Navbar.js';
+import BlogBody from '../src/components/blog-body/BlogBody.js';
+import Filtering from '../src/components/filtering/Filtering.js';
+import BlogGrid from './components/blog/BlogGrid.js';
+import Blog from '../src/components/blog/Blog.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <BlogBody />
       <Filtering />
+      <BlogGrid />
       <header className='App-header'></header>
     </div>
   );

@@ -1,0 +1,60 @@
+.container-filter {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 408px;
+  height: Hug (32px);
+  /* width: 684px; */
+}
+
+.filter-body {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 24px;
+  text-align: center;
+}
+
+.filter-choices {
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter-choices:nth-child(1) {
+  background-color: rgba(255, 186, 47, 0.2);
+  color: rgba(214, 150, 28, 1);
+  width: 83px;
+}
+.filter-choices:nth-child(2) {
+  background-color: rgba(28, 214, 125, 0.2);
+  color: rgba(21, 201, 114, 1);
+  width: 97px;
+}
+.filter-choices:nth-child(3) {
+  background-color: rgba(238, 225, 247, 1);
+  color: rgba(183, 31, 221, 1);
+  width: 178px;
+}
+.filter-choices:nth-child(4) {
+  background-color: rgba(250, 87, 87, 0.2);
+  color: rgba(220, 40, 40, 1);
+  width: 65px;
+}
+.filter-choices:nth-child(5) {
+  background-color: rgba(233, 239, 233, 1);
+  color: rgba(96, 190, 22, 1);
+  width: 77px;
+}
+.filter-choices:nth-child(6) {
+  background-color: rgba(8, 210, 174, 0.2);
+  color: rgba(26, 199, 168, 1);
+  width: 64px;
+}

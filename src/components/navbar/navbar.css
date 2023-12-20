@@ -1,0 +1,31 @@
+nav {
+  /* width: 1440px; */
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid #e4e3eb;
+  background-color: #fff;
+}
+.logo {
+  width: 150px;
+  height: 24px;
+  position: relative;
+  top: 28px;
+  left: 76px;
+}
+.login {
+  width: Hug (93px);
+  height: Hug (40px);
+  position: relative;
+  top: 20px;
+  /* left: 1271px; */
+  right: 76px;
+  padding: 10px, 20px, 10px, 20px;
+  border-radius: 8px;
+  gap: 10px;
+  background-color: #5d37f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
