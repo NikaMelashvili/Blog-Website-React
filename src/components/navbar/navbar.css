@@ -28,4 +28,6 @@ nav {
   font-size: 14px;
   line-height: 20px;
   color: #fff;
+  text-decoration: none;
+  box-shadow: none;
 }

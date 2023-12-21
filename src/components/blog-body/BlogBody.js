@@ -1,5 +1,6 @@
 import React from 'react';
 import './BlogBody.css';
+import BlogPic from '../../images/Blog-1024x3551.png';
 
 export default function BlogBody() {
   return (
@@ -8,11 +9,7 @@ export default function BlogBody() {
         <h1 className='blog-title'>ბლოგი</h1>
       </div>
       <div>
-        <img
-          className='blog-img'
-          src='/images/Blog-1024x355 1.png'
-          alt='Blog'
-        />
+        <img className='blog-img' src={BlogPic} alt='Blog' />
       </div>
     </div>
   );
