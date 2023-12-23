@@ -1,33 +1,56 @@
-.login-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  padding: 40px 24px;
-  background-color: bisque;
-  width: 480px;
-  height: 272px;
-  flex-shrink: 0;
-}
 .login-container form {
   display: flex;
   flex-direction: column;
   min-height: 44px;
   width: 100%;
 }
-
 .login-container form button {
   min-height: 44px;
   width: 100%;
   box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  background: #5d37f3;
+  color: #fff;
+  font-family: FiraGO;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.login-container form button:hover {
+  background-color: #3e25a4;
+  cursor: pointer;
 }
 .login-container form input {
   min-height: 44px;
   width: 100%;
   box-sizing: border-box;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  outline: none;
+  background: #f7f7ff;
+  text-transform: lowercase;
+}
+.login-container form input::placeholder {
+  color: #85858d;
+  font-family: FiraGO;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 12px 276px 12px 5px;
+  text-align: start;
+}
+.label-for-email:focus {
+  border: 1.5px solid #5d37f3;
+}
+.login-container form label {
+  color: #1a1a1f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-right: auto;
+  margin-bottom: 8px;
 }
