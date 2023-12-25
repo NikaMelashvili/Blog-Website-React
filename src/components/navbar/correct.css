@@ -1,0 +1,14 @@
+.successful-h2 {
+  color: #1a1a1f;
+  text-align: center;
+  font-family: FiraGO;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+.login-successful {
+  margin-top: 2px;
+  position: relative;
+  top: 80%;
+}

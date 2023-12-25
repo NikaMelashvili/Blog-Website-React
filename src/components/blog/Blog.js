@@ -17,7 +17,6 @@ const Blog = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setPosts(data.data);
       })
       .catch((error) => console.error('Error fetching data:', error));
